@@ -23,6 +23,20 @@ Your support helps keep the project maintained and allows me to continue improvi
 
 [☕ Support me on Ko-fi](https://ko-fi.com/nicohouse97)
 
+## Tutorial
+
+This video provides a step-by-step guide to installing, configuring, and using the tool.
+
+🎥 **[Watch the X Scraper Tutorial on YouTube](https://www.youtube.com/watch?v=ciPGoyp94JY)**
+
+### Scraping reliability and query limits (important!)
+
+X Scraper has been tested successfully under different scraping scenarios and can effectively collect historical posts from X. However, the completeness of the results ultimately depends on the number of queries required for a given search period.
+
+The scraper processes the selected date range using individual daily queries. For example, a search covering ten days requires ten separate queries to X. Since X imposes limits on search activity, longer date ranges may be more affected by these restrictions.
+
+If X stops returning results—usually displaying a message such as **“No results for `from:(account name) since:(start date) until:(end date)`”**—one way to work around this limitation is to log in with a different X account or wait until the restriction is lifted, and then restart the scraping process.
+
 ## Requirements
 
 - Windows 10 or Windows 11
