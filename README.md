@@ -99,6 +99,9 @@ The application will be available at:
 
 `http://localhost:8501`
 
+> **Windows Firewall:** Windows may ask for firewall permission when you first launch the `.bat` file. This is expected because X Scraper uses a local debugging connection with Microsoft Edge. The connection is local to your computer and does not expose your X credentials.
+
+
 ## 4. Using X Scraper
 
 Once the application is open:
