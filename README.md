@@ -1,8 +1,6 @@
 # X Scraper
 
-X Scraper is a Python-based tool for collecting historical posts from X (formerly Twitter) within a user-defined date range.
-
-The application was designed primarily as a research tool, particularly for academic and social science research.
+A simple X (Twitter) scraper built by a social scientist, for social science researchers. Designed to make social media data collection from specific X users accessible to researchers without advanced programming skills.
 
 ## Features
 
@@ -43,7 +41,6 @@ If X stops returning results—usually displaying a message such as **“No resu
 - Microsoft Edge
 - Python 3
 - An X account with access to the content being searched
-- Internet connection
 
 ## 1. Installation
 
@@ -70,7 +67,7 @@ python -m pip install -r requirements.txt
 ```
 It may also be required to update your "pip" beforehand: 
 
-    ```bash
+```bash
 py -m pip install --upgrade pip
 ```
 
@@ -80,13 +77,11 @@ X Scraper uses Microsoft Edge to access X because the scraper connects to a loca
 
 For this reason, you need to be logged into your X account in the Microsoft Edge window opened by X Scraper before starting a scraping session.
 
-### Why do I need to log in?
+> Why do I need to log in?
 
-Some X content and search functionality may require an authenticated session. The scraper therefore uses the session that you have already opened in Edge rather than asking you to provide your X username or password to the application. **The scraper does not ask for or store your X password.** The application connects to the local Microsoft Edge session running on your own computer.
-
-The Edge session used by X Scraper is launched with a separate browser profile (`C:\EdgeDebug`). This keeps the scraper's browser session separate from your normal Microsoft Edge profile. 
-
-The source code of this project is publicly available for inspection.
+> Some X content and search functionality may require an authenticated session. The scraper therefore uses the session that you have already opened in Edge rather than asking you to provide your X username or password to the application. **The scraper does not ask for or store your X password.** The application connects to the local Microsoft Edge session running on your own computer.
+> The Edge session used by X Scraper is launched with a separate browser profile (`C:\EdgeDebug`). This keeps the scraper's browser session separate from your normal Microsoft Edge profile. 
+> The source code of this project is publicly available for inspection.
 
 ## 3. Running the application
 
