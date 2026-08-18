@@ -68,6 +68,11 @@ Open PowerShell in the project folder (right click on a blank space while being 
 ```bash
 python -m pip install -r requirements.txt
 ```
+It may also be required to update your "pip" beforehand: 
+
+    ```bash
+py -m pip install --upgrade pip
+```
 
 ## 2. Logging in to X in Microsoft Edge
 
